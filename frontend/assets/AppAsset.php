@@ -18,6 +18,8 @@ class AppAsset extends AssetBundle
      'css/mdb.min.css',
      'css/style.css',
      'css/site.css',
+     'css/modern-business.css',
+     'font-awesome/css/font-awesome.min.css',
 
     ];
     public $js = [
