@@ -49,7 +49,7 @@ class SiteController extends Controller
            ],
        ];
    }
-   public function beforeAction($action)
+  /** public function beforeAction($action)
    {
        if (!parent::beforeAction($action)) {
            return false;
@@ -70,7 +70,7 @@ class SiteController extends Controller
 
        return true;
    }
-    /**
+    **//**
      * @inheritdoc
      */
     public function actions()
