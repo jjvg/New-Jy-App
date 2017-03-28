@@ -70,7 +70,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <a href="index.php?r=anuncio/lista" class="btn btn-primary" role="button">Ver Lista</a></h1>
 
 <div class="row">
- 
+
     <div class="col-md-8">
     <?php
 
@@ -86,6 +86,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'itemView' => '..//anuncio/_anuncio',
     ]);
      ?>
+     
 </div>
 </div>
   </div>
