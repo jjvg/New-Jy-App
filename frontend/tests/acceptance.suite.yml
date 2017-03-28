@@ -1,0 +1,9 @@
+class_name: AcceptanceTester
+modules:
+    enabled:
+        - WebDriver:
+            url: http://localhost/New-Jy-App/
+        - \Helper\Acceptance
+            browser: firefox
+        - Yii2:
+            part: init
